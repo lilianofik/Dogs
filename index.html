@@ -6,7 +6,7 @@
 
         <link rel="stylesheet" href="style.css">
         <script src="main.js"></script>
-
+        <script src="firebase.mjs" type="module"></script>
     </head>
 
     <body>
@@ -17,6 +17,41 @@
 
         <h3 id='choice'></h3>
         <img id='pic'>
+
+    <div id="comments">
+    <div class="loginForm">
+        <h3> Log in to add a comment:</h3>
+
+        <p>Email: <input id='emailInputLogin' placeholder="Email" type="email"></input>
+        Password: <input id='passwordInputLogin' 
+        placeholder="Password" type="password"></input>
+        <button type="submit" id='loginButton'>Log In</button> </p>
+
+        <p>New User? <a id="signUpLink">Click here to register.</a></p>
+
+    </div>
+
+    <div class="signUpForm" style="display: none;">
+        <h3> Register to add a comment:</h3>
+
+        <p>Email: <input id='emailInputSignUp' placeholder="Email"></input>
+        Password: <input id='passwordInputSignUp' placeholder="Password"></input>
+        <button type="submit" id='signInButton'>Register</button> </p>
+
+        <p>Already register? <a id="loginLink">Click here to sign in.</a></p>
+
+    </div>
+
+    <div id="addCommentDiv" style="display:none;">
+        <textarea name="" id="newComment" cols="30" rows="3"></textarea>
+        <button id="addCommentBtn">Add Comment</button>
+        <br>
+        <a id="slattbratha">Click here to log out.</a>
+    </div>
+
+    <div class="error"></div>
+</div>
+
     </body>
 
 </html>

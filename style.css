@@ -52,3 +52,36 @@ h2 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 2%;
 }
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.loginForm {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.signUpForm {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#signUpLink {
+    cursor: pointer;
+    color: blue;
+}
+
+#loginLink {
+    cursor: pointer;
+    color: blue;
+}
+
+#slattbratha {
+    cursor: pointer;
+    color: blue;
+}
+
+.comment {
+    border: solid 1px gray;
+    margin: 15px;
+    padding: 15px;
+}
